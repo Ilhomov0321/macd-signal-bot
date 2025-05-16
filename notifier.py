@@ -1,7 +1,7 @@
 import requests
 
 BOT_TOKEN = "7459341936:AAGF4xcm-ESyYT8BFtwGJDtNFUHB36a5HeE"
-CHAT_ID = " 1673000716"  # Bu odatda raqam bo'ladi, o'zingizga yuborib topasiz
+CHAT_ID = " 1673000716"
 
 def send_telegram_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
